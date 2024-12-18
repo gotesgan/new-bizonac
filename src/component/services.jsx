@@ -21,38 +21,39 @@ const servicesData = [
 	{
 		title: "Google Services",
 		description:
-			"Enhance your business visibility with Google Business Listings, Local SEO, and Map Listings. Utilize Google Street View and 360-degree imagery to engage more customers and improve your online presence.",
+			"Boost your business with Google Listings, Local SEO, Map Listings, and Street View for greater online engagement.",
 		logos: [gmblogo, googleMap, googleStreetView],
 	},
 	{
 		title: "Google Ads Services",
 		description:
-			"Strengthen your online presence with expert Search Engine Optimization (SEO), Pay-Per-Click (PPC) Ads, and Google Ads. Generate revenue with Google AdSense, boost mobile app earnings with AdMob, and streamline collaboration with Google Workspace.",
+			"Strengthen your online presence with SEO, PPC Ads, Google Ads, and AdMob. Increase revenue through Google AdSense and grow your mobile app earnings.",
 		logos: [googleAds, googleAdsense, adMob, youtubeLogo],
 	},
 	{
 		title: "Meta Business Manager",
 		description:
-			"Effectively manage your business across Facebook, Instagram, and WhatsApp Business Managers. Run paid ad campaigns, enhance visibility through organic promotion, and get verified with the blue tick.",
+			"Manage your business across Facebook, Instagram, and WhatsApp. Run ads, promote organically, and get verified.",
 		logos: [whatsappBusiness, facebookLogo, instagramLogo],
 	},
 	{
 		title: "Software Development",
 		description:
-			"Tailored Software Development, Web Development, Mobile App Development (Android/iOS), E-commerce Solutions, ERP Systems, Utility Software, AI Solutions, and Embedded Systems.",
+			"Custom Software, Web, Mobile App Development, E-commerce Solutions, ERP, AI, and Embedded Systems.",
 		logos: [softwareDev, webLogo, mobileApp],
 	},
 	{
 		title: "Business Registration Services",
 		description:
-			"Comprehensive business registration services including Udyam Registration, MSME Data Bank, Company Registration (PVT LTD/OPC/LLP), Digital Signatures, Trademark Registration, ISO Certification, Copyright Registration, GST Registration, Barcode Registration, FSSAI License, Shop Act License, and Start-up India Registration.",
+			"Services include Udyam Registration, Company Registration, Digital Signatures, Trademark, ISO, GST Registration, and Start-up India Registration.",
 		logos: [msmeLogo, mcaLogo, ipIndiaLogo, startupIndiaLogo],
 	},
 	{
 		title: "Branding Solutions",
 		description:
-			"Drive brand recognition with Bulk SMS Campaigns, Bulk WhatsApp Marketing, Email Marketing, Professional Logo Design, Graphic Design, Corporate Gifting, Animation Videos, Motion Graphics, Reels Creation, Audio Ads, Video Ads, TV Commercials, Brand Jingles (Sound Branding), Product Promotion, Corporate Events, Media & News Coverage, Business Magazines, and Personal Branding.",
+			"Enhance your brand with Bulk SMS, WhatsApp Marketing, Email Marketing, Logo Design, Corporate Gifting, Animation Videos, Ads, and TV Commercials.",
 		logos: [],
 	},
 ];
+
 export default servicesData;
