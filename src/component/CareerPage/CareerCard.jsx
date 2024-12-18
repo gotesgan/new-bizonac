@@ -1,57 +1,57 @@
 import React from "react";
-import fullStackJob from "./../../assets/fullstackjob.png";
-import ProjectManagerJob from "./../../assets/promajob.jpg";
-import BusinessDevJob from "./../../assets/busdevjob.jpg";
-import Analyst from "./../../assets/analy.jpeg";
+import fullStackJob from "../../assets/images/fullstackjob.png";
+import ProjectManagerJob from "../../assets/images/promajob.jpg";
+import BusinessDevJob from "../../assets/images/busdevjob.jpg";
+import Analyst from "../../assets/images/analy.jpeg";
 import DigitalMarketing from "./../../assets/digmarjob.jpg";
 
 const CareerCard = () => {
   return (
-    <div className="flex flex-col items-center justify-center bg-[#e8f0ff] min-h-screen w-full p-5">
-      <div className="bg-white rounded-lg w-full max-w-6xl px-8 sm:px-12 py-14 text-center flex flex-col items-center justify-center">
-        {/* Headings */}
-        <div>
-          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold p-2">
-            Your next job is waiting for you at{" "}
-            <span className="text-[#1a73e8]">BiZONANCE</span>
-          </h1>
-        </div>
-        <br />
+		<div className="flex flex-col items-center justify-center bg-[#e8f0ff] min-h-screen w-full p-5">
+			<div className="bg-white rounded-lg w-full max-w-6xl px-8 sm:px-12 py-14 text-center flex flex-col items-center justify-center">
+				{/* Headings */}
+				<div>
+					<h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold p-2">
+						Your next job is waiting for you at{" "}
+						<span className="text-[#1a73e8]">BiZONANCE</span>
+					</h1>
+				</div>
+				<br />
 
-        {/* Job Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
-          {reasons.map((each) => (
-            <div
-              key={each.id}
-              className="flex flex-col items-center justify-between border-2 border-blue-500 rounded-xl p-5 h-[400px] bg-white shadow-lg"
-            >
-              <div className="relative w-full h-32 overflow-hidden rounded-md">
-                <img
-                  src={each.logo}
-                  alt={each.title}
-                  className="w-full h-full object-cover transition-transform duration-300 transform hover:scale-110"
-                />
-              </div>
-              <h2 className="text-lg font-bold mt-3">{each.title}</h2>
-              <p className="text-sm text-gray-600 text-center">
-                {each.explainaion}
-              </p>
-              <button className="rounded-full bg-blue-500 text-white p-2 px-5 mt-3 hover:bg-blue-700">
-                Apply now
-              </button>
-            </div>
-          ))}
-        </div>
+				{/* Job Cards */}
+				<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
+					{reasons.map((each) => (
+						<div
+							key={each.id}
+							className="flex flex-col items-center justify-between border-2 border-blue-500 rounded-xl p-5 h-[400px] bg-white shadow-lg"
+						>
+							<div className="relative w-full h-32 overflow-hidden rounded-md">
+								<img
+									src={each.logo}
+									alt={each.title}
+									className="w-full h-full object-cover transition-transform duration-300 transform hover:scale-110"
+								/>
+							</div>
+							<h2 className="text-lg font-bold mt-3">{each.title}</h2>
+							<p className="text-sm text-gray-600 text-center">
+								{each.explainaion}
+							</p>
+							<button className="rounded-full bg-blue-500 text-white p-2 px-5 mt-3 hover:bg-blue-700">
+								Apply now
+							</button>
+						</div>
+					))}
+				</div>
 
-        {/* Join Now Button */}
-        <div className="mt-5">
-          <button className="rounded-full bg-blue-500 text-white p-2 px-5 hover:bg-blue-700">
-            Join Now
-          </button>
-        </div>
-      </div>
-    </div>
-  );
+				{/* Join Now Button */}
+				<div className="mt-5">
+					<button className="rounded-full bg-blue-500 text-white p-2 px-5 hover:bg-blue-700">
+						Join Now
+					</button>
+				</div>
+			</div>
+		</div>
+	);
 };
 
 export default CareerCard;

@@ -2,7 +2,7 @@ import * as React from "react";
 import { useState } from "react";
 import Drawer from "@mui/material/Drawer";
 import { Menu } from "lucide-react"; // Import the Menu icon from lucide-react
-import logo from "../assets/bzionan.png"; // Update the path to your logo file
+import logo from "../../assets/bzionan.png"; // Update the path to your logo file
 
 const Navbar = () => {
   const nav = ["Overview", "Solutions", "Partners", "Expert support"];

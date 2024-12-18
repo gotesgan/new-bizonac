@@ -1,12 +1,15 @@
-import { useState } from "react";
-import ConnectBanner from "./component/Hero";
-import ProductCard from "./component/ProductCard";
-
+import Navbar from "./component/header-footer/Header"
+import BrandCollaboration from "./component/Brand Collaboration/BrandCollaboration";
+import Footer from "./component/header-footer/footer";
 // import Navbar from "./component/Header";
 function App() {
-	return(
-		 <ProductCard />
-		 );
+	return (
+		<>
+		<Navbar/>
+
+<BrandCollaboration/>
+		<Footer/></>
+	)
 }
 
 export default App;

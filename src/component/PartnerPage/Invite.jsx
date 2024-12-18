@@ -1,5 +1,5 @@
 import React from 'react'
-import sideImage from './../../assets/partner.png'
+import sideImage from './../../assets/images/partner.png'
 
 const Invite = () => {
   return (

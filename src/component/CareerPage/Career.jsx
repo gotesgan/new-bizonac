@@ -5,7 +5,7 @@ import CareerCard from './CareerCard'
 const Career = () => {
   return (
     <div>
-        <Top/><br /><br />
+        <Top/>
         <CareerCard/>
     </div>
   )

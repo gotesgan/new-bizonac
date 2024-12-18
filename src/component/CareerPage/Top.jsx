@@ -1,5 +1,5 @@
 import React from 'react'
-import sideImage from './../../assets/career.png'
+import sideImage from '../../assets/images/career.png'
 
 const Top = () => {
    return (
